@@ -1,4 +1,4 @@
-package beispiele.arrays;
+package beispiele.listen;
 
 class Arrays {
     public static void main(String[] args) {
