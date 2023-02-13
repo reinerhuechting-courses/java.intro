@@ -43,6 +43,12 @@ public class Listen {
 
     }
 
+    /**
+     * Generische Funktion zum Ausgeben einer Liste auf die Konsole.
+     * Diese Funktion ist unabhängig vom konkreten Elementtyp.
+     * @param <T> Typ der Elemente in der Liste.
+     * @param list Die auszugebende Liste.
+     */
     public static <T> void printList(List<T> list) {
         for (var element : list) {
             System.out.print(element);
@@ -51,6 +57,11 @@ public class Listen {
         System.out.println();
     }
 
+    /**
+     * primes liefert zu einer Liste aus Zahlen diejenigen davon, die Primzahlen sind.
+     * @param numbers Die eingehende Liste der Zahlen.
+     * @return Die Primzahlen, die in numbers vorkommen.
+     */
     public static List<Integer> primes(List<Integer> numbers) {
         List<Integer> result = new ArrayList<>();
 
@@ -62,6 +73,11 @@ public class Listen {
         return result;
     }
 
+    /**
+     * isPrime prüft, ob eine Zahl eine Primzahl ist.
+     * @param n Die zu prüfende Zahl.
+     * @return true, falls n eine Primzahl ist, ansonsten false.
+     */
     public static boolean isPrime(int n) {
         for (int i=2; i<n; i++) {
             if (n%i==0) {

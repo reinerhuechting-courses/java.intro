@@ -30,6 +30,10 @@ class Arrays {
         System.out.println();
     }
     
+    /**
+     * printArray gibt ein Array aus int-Werten auf der Konsole aus.
+     * @param array Das auszugebende Array.
+     */
     public static  void printIntArray(int[] array) {
         for (var element : array) {
             System.out.printf("%d ", element);
