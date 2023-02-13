@@ -37,6 +37,11 @@ public class Klassen {
         System.out.println(nearestCity(cities));
     }
 
+    /**
+     * farthestCity liefert zu einer Liste von Städten die am weitesten entfernte.
+     * @param cities Die Liste der Städte.
+     * @return Die Stadt aus cities, deren distance-Attribut am größten ist.
+     */
     public static City farthestCity(List<City> cities) {
         City farthest = null;
         for (City city : cities) {
@@ -47,6 +52,11 @@ public class Klassen {
         return farthest;
     }
 
+    /**
+     * nearestCity liefert zu einer Liste von Städten die mit der geringsten Entfernung.
+     * @param cities Die Liste der Städte.
+     * @return Die Stadt aus cities, deren distance-Attribut am kleinsten ist.
+     */
     public static City nearestCity(List<City> cities) {
         City nearest = null;
         for (City city : cities) {
