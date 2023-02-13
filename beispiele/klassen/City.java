@@ -1,15 +1,15 @@
 package beispiele.klassen;
 
-public class Ort {
+public class City {
     String name;
     int distance;
 
-    Ort() {
+    City() {
         this.name = "";
         this.distance = -1;
     }
 
-    Ort(String name, int distance) {
+    City(String name, int distance) {
         this.name = name;
         this.distance = distance;
     }
