@@ -3,7 +3,7 @@ package beispiele.klassen;
 import java.util.Arrays;
 import java.util.List;
 
-import beispiele.arrays.Listen;
+import beispiele.listen.Listen;
 
 
 public class Klassen {
